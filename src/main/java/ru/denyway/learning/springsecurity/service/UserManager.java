@@ -38,9 +38,9 @@ public class UserManager {
       
         private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
     
-        //private final static String fileName = "/Users/denyway/Google Диск/Разработка/last/last/SpringSecurity/src/main/java/ru/denyway/springsecurity/entity/passwords.dat";
+        private final static String fileName = "/Users/denyway/Google Диск/Разработка/last/last/SpringSecurity/src/main/java/ru/denyway/learning/springsecurity/service/passwords.dat";
                       
-        private final static String fileName = new File("passwords.dat").getAbsoluteFile().toString();
+        //private final static String fileName = new File("passwords.dat").getAbsoluteFile().toString();
                  
         
 	public UserManager() {
