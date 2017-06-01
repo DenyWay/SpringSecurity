@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.05.2017, 18:28:47
+    Author     : DenyWay
+*/
+
+@font-face {
+	font-family: Open Sans;
+	src:url(/itg/web/new/css/fonts/opensans-regular-webfont.eot?#iefix) format("embedded-opentype"), url(/itg/web/new/css/fonts/opensans-regular-webfont.ttf) format("truetype");
+}
+@font-face {
+	font-family: Open Sans;
+	src:url(/itg/web/new/css/fonts/opensans-light-webfont.eot?#iefix) format("embedded-opentype"), url(/itg/web/new/css/fonts/opensans-light-webfont.ttf) format("truetype");
+}
+@font-face {
+	font-family: Open Sans;
+	src:url(/itg/web/new/css/fonts/opensans-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(/itg/web/new/css/fonts/opensans-semibold-webfont.ttf) format("truetype");
+}
+BODY {
+	POSITION: relative; 
+	BACKGROUND: #c9c9c9; 
+	HEIGHT: 100%
+}
+.clearfix {
+	
+}
+.clearfix:before {
+	DISPLAY: table; 
+	CONTENT: ""
+}
+.clearfix:after {
+	DISPLAY: table; 
+	CONTENT: ""
+}
+.clearfix:after {
+	CLEAR: both
+}
+.popup {
+        POSITION: absolute; 
+	BACKGROUND: #fff; 
+	MARGIN-LEFT: -268px; 
+	MARGIN-TOP: -168px; 
+	LEFT: 50%; 
+	TOP: 50%;
+        
+        -webkit-border-radius: 8px; 
+	border-radius: 8px; 
+	-webkit-backface-visibility: hidden
+        
+}
+.popup__top {
+	PADDING-BOTTOM: 25px; 
+        PADDING-LEFT: 25px; 
+        WIDTH: 510px; 
+        PADDING-TOP: 30px; 
+        -webkit-border-radius: 8px 8px 0px 0px; 
+        
+        backface-visibility: visible;
+}
+.popup__logo {
+	MARGIN-BOTTOM: 12px
+}
+.popup__title {
+	LINE-HEIGHT: 55px; 
+        FONT-FAMILY: "Open Sans"; 
+        COLOR: #808080; 
+        FONT-SIZE: 45px; 
+        FONT-WEIGHT: 300; 
+        CURSOR: default
+}
+.popup__form {
+	PADDING-BOTTOM: 30px; 
+        PADDING-LEFT: 25px; 
+        WIDTH: 510px; 
+        BACKGROUND: #edebeb; 
+        PADDING-TOP: 30px; 
+        -webkit-border-radius: 0px 0px 8px 8px; 
+        border-radius: 0px 0px 8px 8px
+}
+.popup__form .item {
+	MARGIN-BOTTOM: 20px; 
+	FLOAT: left; 
+	MARGIN-RIGHT: 22px
+}
+.popup__form LABEL {
+	TEXT-TRANSFORM: uppercase; 
+	DISPLAY: block; 
+	FONT-FAMILY: "Open Sans"; 
+	MARGIN-BOTTOM: 6px; 
+	COLOR: #808080; 
+	FONT-SIZE: 13px; 
+	FONT-WEIGHT: 400
+}
+.popup__form INPUT[type='text'] {
+	BOX-SIZING: border-box; 
+	BORDER-BOTTOM: #dedddd 1px solid; 
+	BORDER-LEFT: #dedddd 1px solid; 
+	PADDING-BOTTOM: 0px; 
+	LINE-HEIGHT: 32px; 
+	PADDING-LEFT: 8px; 
+	WIDTH: 227px; 
+	PADDING-RIGHT: 8px; 
+	FONT-FAMILY: "Open Sans"; 
+	HEIGHT: 32px; 
+	COLOR: #000; 
+	FONT-SIZE: 14px; 
+	BORDER-TOP: #dedddd 1px solid; 
+	FONT-WEIGHT: 600; 
+	BORDER-RIGHT: #dedddd 1px solid; 
+	PADDING-TOP: 0px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-sizing: 
+	border-box; -moz-box-sizing: 
+	border-box
+}
+.popup__form INPUT[type='password'] {
+	BOX-SIZING: border-box; 
+	BORDER-BOTTOM: #dedddd 1px solid; 
+	BORDER-LEFT: #dedddd 1px solid; 
+	PADDING-BOTTOM: 0px; 
+	LINE-HEIGHT: 32px; 
+	PADDING-LEFT: 8px; 
+	WIDTH: 227px; 
+	PADDING-RIGHT: 8px; 
+	FONT-FAMILY: "Open Sans"; 
+	HEIGHT: 32px; 
+	COLOR: #000; 
+	FONT-SIZE: 14px; 
+	BORDER-TOP: #dedddd 1px solid; 
+	FONT-WEIGHT: 600; 
+	BORDER-RIGHT: #dedddd 1px solid; 
+	PADDING-TOP: 0px; 
+	-webkit-border-radius: 5px; 
+	border-radius: 5px; 
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box
+}
+.popup__form BUTTON {
+	BORDER-BOTTOM: medium none; 
+        TEXT-ALIGN: center; 
+        BORDER-LEFT: medium none; 
+        PADDING-BOTTOM: 0px; 
+        LINE-HEIGHT: 30px; 
+        TEXT-TRANSFORM: uppercase; 
+        PADDING-LEFT: 0px; 
+        WIDTH: 225px; 
+        PADDING-RIGHT: 0px; 
+        BACKGROUND: #19aa39; 
+        FLOAT: right; 
+        HEIGHT: 32px; 
+        COLOR: #fff; 
+        BORDER-TOP: medium none; 
+        MARGIN-RIGHT: 35px; 
+        BORDER-RIGHT: medium none; 
+        PADDING-TOP: 0px; 
+        -webkit-border-radius: 5px; 
+        border-radius: 5px;
+        cursor: pointer
+}
+.label-ru {
+	DISPLAY: yes
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
